@@ -10,7 +10,7 @@ import {
     removeTodo,
     getTodos,
 } from "@/helpers/funcs/query-client-funcs";
-import { deleteTodo, postTodo } from "@/pages/TodoList/TodoList.funcs";
+import { deleteTodo, postTodo } from "@/components/TodoList/TodoList.funcs";
 import { queryClientKeys } from "@/helpers/constants/query-client-keys";
 
 export function TodoList() {
